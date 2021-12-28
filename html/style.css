@@ -31,3 +31,48 @@
     background-color:#005176
 }
 
+.o-main h1 {
+    font-family: Arial;
+    font-size: 29px;
+    margin: 15px;
+}
+
+.o-main h2 {
+    font-family: Arial;
+    font-size: 23px;
+    margin: 25px 0px 5px 10px;
+}
+
+.o-main p {
+    font-family: Calibri, Tahoma, Centure Ghotic;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.o-main .lista-sistema-energia {
+    margin: 15px 0px;
+}
+
+.o-main .lista-sistema-energia li {
+    font-family: Calibri, Tahoma, Centure Ghotic;
+    font-size: 17px;
+    margin: 5px 27px;
+    list-style-type: circle;
+}
+
+.o-main .lista-funcionamento-sistema {
+    margin: 15px 0px;
+}
+
+.o-main .lista-funcionamento-sistema li {
+    font-family: Calibri, Tahoma, Centure Ghotic;
+    font-size: 17px;
+    margin: 5px 27px;
+    list-style-type: decimal;
+}
+
+.o-main h3 {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 30px 0px 0px 10px;
+}
