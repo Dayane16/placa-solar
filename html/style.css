@@ -160,3 +160,33 @@
 }
 /*CSS final da página como_funciona */
 
+/*CSS começo pagina onde encontrar*/
+.empresas{
+    margin: 0;
+    text-align: center;
+}
+
+
+.empresas a{
+    background-color: #005176;
+    color:#f3f2f2;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;  
+    transition: background .4s;
+    border-radius: 4%;
+}
+.empresas a:hover{
+    color:#242021;
+    background-color: #fff;
+}
+
+.empresas img{
+
+    border-radius: 50%;
+}
+.empresas li{
+    display: inline-block;
+    padding: 50px;
+}
+/*CSS final da página onde encontrar*/
