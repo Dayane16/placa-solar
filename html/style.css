@@ -54,6 +54,11 @@
     font-size: 16px;
     padding: 10px;
 }
+/*imagem do benefício*/
+.imagem-benefício {
+    display: inline;
+    width: 100%;
+}
 
 /* Imagem da página como_funciona */
 .imagem-como-funciona {
