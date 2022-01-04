@@ -10,12 +10,16 @@
 
 body{
 
-    background: rgb(34,69,123);
-background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
+   background: rgb(34,69,123);
+background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(66,99,151,1) 4%, rgba(137,166,213,1) 100%);
 }
 
 /* Menu*/
-
+.mainhome{ 
+    background: rgb(34,69,123);
+    background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
+    
+}
 .menu {
     background-color: rgb(34,69,123);
     display: flex;
@@ -134,26 +138,32 @@ background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%
     background-color: #f87f0e;
     color: black;
 }
-
+.o-main ol{
+    color:#1a1818;
+}
 .o-main h1 {
+    color:#141414;
     font-family: 'Poppins', sans-serif;
     font-size: 29px;
     margin: 15px;
 }
 
 .o-main h2 {
+    color:#141414;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    margin: 25px 0px 5px 10px;
+    font-size: 2rem;
+    margin: 0px 0px 0px 0px;
 }
 
 .o-main h3 {
+    color:#141414;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     margin: 30px 0px 0px 10px;
 }
 
 .o-main p {
+    color:#1a1818;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 10px;
@@ -164,10 +174,22 @@ background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%
     width: 100%;
 }
 
+.comofunciona{
+    width: 70%;
+}
 /* Imagem da página como_funciona */
 .imagem-como-funciona {
+    box-shadow: 0 0 1em black;
     display: inline;
     width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+    opacity:0.8;
+    transition: .6s;
+}
+
+.imagem-como-funciona:hover{
+    opacity:1;
 }
 
 /* Início do accordion da página como_funciona */
@@ -185,8 +207,8 @@ background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%
 
 .accordion .contentBx {
     position: absolute;
-    top: 270px;
-    left: 110px;
+    top: 180px;
+    left: 225px;
     margin: 10px 20px;
 }
 
@@ -206,7 +228,7 @@ background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%
     background: #FFD700;
     opacity: 87%;
     height: 0px;
-    width: 1109px;
+    width: 893px;
     padding: 0px 10px;
     overflow: hidden;
     transition: 0.5s;
@@ -214,8 +236,8 @@ background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%
 }
 
 .accordion .contentBx.active .content {
-    height: 240px;
-    width: 1109px;
+    height: 310px;
+    width: 893px;
     padding: 0px 10px;
     overflow-y: hidden;
 }
@@ -317,4 +339,19 @@ background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%
 .colab{
     display: flex;
     flex-direction: row;
+}
+
+/*textos*/
+
+.texto-pagina-como-funciona{
+    margin-right:300px;
+    margin-left: 300px;
+    margin-bottom:100px;
+}
+
+.importante{
+    margin-right:300px;
+    margin-left: 300px;
+    
+    margin-top:100px;
 }
