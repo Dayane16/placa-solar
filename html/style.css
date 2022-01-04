@@ -1,34 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@700&display=swap');
 *{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;;
 }
 
-.menu{
-    background-color: #242021;
+body{
+
+    background: rgb(34,69,123);
+background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
+}
+
+/* Menu*/
+
+.menu {
+    background-color: rgb(34,69,123);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
 
 .menu ul {
     list-style: none;
-    padding: 0;
+    display: inline-block;
+    padding:20px;
 }
 
 .menu ul li{
+    padding: 10px;
     display: inline;
 }
 
 .menu ul li a{
-    color:#f3f2f2;
-    padding: 20px;
-    display: inline-block;
+    
+   color: #f19100;
     text-decoration: none;
-    transition: background .4s;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    padding:20px;
+    transition:background .6s;
 }
 
 .menu ul li a:hover{
-    background-color:#005176
+   background-color: #1f9906;
+    color: #ffe0b3;
+}
+
+/* CSS da página inicial */
+/* Primeiro conteúdo com título, subtitulo e imagem */
+.planetmain{
+    position: absolute;
+    left: 67%;
+    top: 10%;
+    opacity:0.8;
+
+}
+.conteudo1 {
+    padding-left: 50px
+
+}
+
+.conteudo1-texto {
+    padding-left: 50px;
+}
+
+#conteudo1-texto-titulo {
+    font-family: 'Righteous', cursive;
+    color: #f19100;
+    font-size: 50px;
+    width: 700px;
+    height: 170px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+#conteudo1-texto-subtitulo {
+    color: #ffffff;
+    font-size: 20px;
+    width: 540px;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    text-align: left;
+
+}
+
+/* Segundo conteúdo da página inicial com imagem, titulo e botão */
+.conteudo2 {
+    padding-left: 50px
+}
+
+.conteudo2-texto {
+    padding-right: 30px;
+    text-align: center;
+    padding-left: 55px
+}
+
+#conteudo2-texto-titulo {
+    font-family: 'Righteous', cursive;
+    color: #f19100;
+    font-size: 50px;
+    width: 700px;
+    height: 200px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+/* Botão do conteúdo 2*/
+.bt1 {
+    background-color: #f19100;
+    width: 190px;
+    height: 90px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+    margin-right: 600px;
+    transition: background .5s;
+    transition: transform .5s;
+    
+}
+
+.bt1:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    background-color: #f87f0e;
+    color: black;
 }
 
 .o-main h1 {
@@ -196,3 +300,21 @@
 }
 /*CSS final da página onde encontrar*/
 
+/*Rodapé*/
+.rodape {
+    border-top: 0.4px solid #000000;
+    background-color: rgb(34,69,123);
+    font-size: 15px;
+    color: #f19100;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.rodape-img{
+    border-radius: 100%;
+}
+.colab{
+    display: flex;
+    flex-direction: row;
+}
