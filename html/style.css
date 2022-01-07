@@ -14,8 +14,6 @@ body{
 
 /* Menu*/
 .mainhome{ 
-    padding-top: 20px;
-    background-size: 1400px 800px ;
     padding-top: 50px;
     background: rgb(34,69,123);
     background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
@@ -55,8 +53,6 @@ body{
     color: #ffe0b3;
 }
 
-/* CSS da página inicial */
-/* Primeiro conteúdo com título, subtitulo e imagem */
 .planetmain{
     float: right;
     left: 67%;
@@ -64,60 +60,39 @@ body{
     opacity:0.8;
 
 }
-.conteudo1 {
-    padding-left: 50px
+.conteudo1{
+    margin-left: 10%;
+    margin-right: 50%;
 }
 
-.conteudo1-texto {
-    padding-right: 30px;
-    text-align: center;
-    padding-left: 55px
-}
-
-#conteudo1-texto-titulo {
-    font-family: 'Righteous', cursive;
+.conteudo1 h1{
     color: #f19100;
-    font-size: 50px;
-    width: 700px;
-    height: 170px;
-    padding-top: 50px;
-    text-align: left;
+    font-size: 40px;
 }
-
-#conteudo1-texto-subtitulo {
+.conteudo1 h3{
+    padding-top: 3%;
     color: #ffffff;
     font-size: 20px;
-    width: 540px;
-    font-family: 'Righteous', cursive;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    text-align: left;
-
 }
 
-/* Segundo conteúdo da página inicial com imagem, titulo e botão */
-.conteudo2 {
-    padding-left: 50px
+.conteudo2{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-bottom: 5%;
 }
 
-.conteudo2-texto {
-    padding-right: 30px;
-    text-align: center;
-    padding-left: 55px
-}
-
-#conteudo2-texto-titulo {
-    font-family: 'Righteous', cursive;
+.conteudo2 h2{
     color: #f19100;
-    font-size: 50px;
-    width: 700px;
-    height: 200px;
-    padding-top: 50px;
-    text-align: left;
+    font-size: 40px;
+    padding-bottom: 10%;
 }
 
-/* Botão do conteúdo 2*/
-.bt1 {
+.bt1{
+    margin-left: 25%;
+}
+
+.bt1 button {
     background-color: #f19100;
     width: 190px;
     height: 90px;
@@ -126,66 +101,75 @@ body{
     font-family: 'Poppins', sans-serif;;
     font-size: 25px;
     color: black;
-    margin-bottom: 20px;
-    margin-right: 600px;
     transition: background .5s;
     transition: transform .5s;
     
 }
 
-.bt1:hover {
+.bt1 button:hover {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     background-color: #f87f0e;
     color: black;
 }
-.o-main ol{
-    color:#1a1818;
-}
-.o-main h1 {
-    color:#141414;
-    font-family: 'Poppins', sans-serif;
-    font-size: 29px;
-    margin: 15px;
-}
 
-.o-main h2 {
-    color:#141414;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    margin: 0px 0px 0px 0px;
-}
+/*menu final */
 
-.o-main h3 {
-    color:#141414;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    margin: 30px 0px 0px 10px;
-}
+/*pagina beneficios*/
 
-.o-main p {
-    color:#1a1818;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    padding: 10px;
-}
-/*imagem do benefício*/
-.imagem-benefício {
-    display: inline;
-    width: 100%;
-}
-
-.comofunciona{
+.beneficiosimg{
+    text-align: center;
+    box-shadow: 0 0 1em black;
+    display:flex;
+    flex-direction: row;
     width: 70%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity:0.8;
+    transition: .6s;
 }
+
+.beneficiosimg:hover{
+    opacity:1;
+}
+
+.beneficiostxt{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.beneficiostxt h1{
+    color:#302b2b;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.beneficiostxt h2{
+    font-size:25px;
+    color:#302b2b;
+    padding-top:30px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.beneficiostxt p{
+    font-size:15px;
+    color:#635d5d;
+    padding-bottom:20px;
+}
+
+
 /* Imagem da página como_funciona */
 .imagem-como-funciona {
+    text-align: center;
     box-shadow: 0 0 1em black;
-    display: inline;
-    width: 100%;
+    display:flex;
+    flex-direction: row;
+    width: 70%;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 3%;
+    margin-bottom: 5%;
     opacity:0.8;
     transition: .6s;
 }
@@ -204,14 +188,14 @@ body{
     display: absolute;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 990px;
 }
 
 .accordion .contentBx {
     position: absolute;
-    top: 180px;
-    left: 208px;
-    margin: 10px 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
 }
 
 .accordion .contentBx .label {
@@ -230,7 +214,7 @@ body{
     background: #FFD700;
     opacity: 87%;
     height: 0px;
-    width: 893px;
+    width: 958px;
     padding: 0px 10px;
     overflow: hidden;
     transition: 0.5s;
@@ -238,8 +222,8 @@ body{
 }
 
 .accordion .contentBx.active .content {
-    height: 325px;
-    width: 893px;
+    height: 300px;
+    width: 958px;
     padding: 0px 10px;
     overflow-y: hidden;
 }
@@ -264,34 +248,7 @@ body{
 }
 /* Fim do accordion da página como_funciona */
 
-/*CSS da página como_funciona */
-.texto-pagina-como-funciona {
-    margin: 10px;
-    text-align: justify;
-}
 
-.o-main .lista-sistema-energia {
-    margin: 15px 0px;
-}
-
-.o-main .lista-sistema-energia li {
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    margin: 5px 27px;
-    list-style-type: circle;
-}
-
-.o-main .lista-funcionamento-sistema {
-    margin: 15px 0px;
-}
-
-.o-main .lista-funcionamento-sistema li {
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    margin: 5px 27px;
-    list-style-type: decimal;
-}
-/*CSS final da página como_funciona */
 
 /*CSS começo pagina onde encontrar*/
 .empresas{
@@ -345,15 +302,3 @@ body{
 
 /*textos*/
 
-.texto-pagina-como-funciona{
-    margin-right:300px;
-    margin-left: 300px;
-    margin-bottom:100px;
-}
-
-.importante{
-    margin-right:300px;
-    margin-left: 300px;
-    
-    margin-top:100px;
-}
