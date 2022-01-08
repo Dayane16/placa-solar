@@ -322,6 +322,65 @@ body{
 }
 /* Fim do accordion da página como_funciona */
 
+.opoderdosolimg{
+    text-align: center;
+    box-shadow: 0 0 1em black;
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity:0.8;
+    transition: .6s;
+}
+
+.opoderdosolimg:hover{
+    opacity:1;
+}
+
+.opoderdosoltxt{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.opoderdosoltxt h1{
+    color:#302b2b;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.opoderdosoltxt h2{
+    font-size:25px;
+    color:#302b2b;
+    padding-top:30px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.opoderdosoltxt p{
+    font-size:15px;
+    color:#635d5d;
+    padding-bottom:20px;
+}
+
+#paragrafofinal{
+    margin-bottom: 5%;
+}
+
+.opoderdosoltxt a{
+    display:inline-block;
+    color:#f19100;
+    text-decoration:none;
+    transition: .4ms;
+}
+
+.opoderdosoltxt a:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
 
 
 /*CSS começo pagina onde encontrar*/
