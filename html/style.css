@@ -485,5 +485,16 @@ body{
     padding-top: 15px;
 }
 
+.rodape section{
+    display:inline-block;
+    background: white;
+    border-radius: 5%;
+    padding: 15px;
+    width: 500px;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
 
-
+.rodape input{
+    border-radius: 50px;
+}

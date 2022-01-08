@@ -25,7 +25,7 @@
 
     <main class="o-main">
         <nav class="comofunciona">
-        <img src="../img/paisagem-como_funciona.png" class="imagem-como-funciona">
+        <img src="../img/paisagem-como_funciona.png" class="imagem-como-funciona" alt='imagem de um carro andando numa paisagem com placas solares ao fundo'>
 
         <div class="accordion">
             <div class="contentBx">
@@ -146,6 +146,7 @@
     </main>
 
     <footer class="rodape">
+
         <div>
              <img class="rodape-img" src="../img/quasartechwhite.png" alt="Logo da equipe Quasar Tech">
              <h4>Quasar Tech</h4>
@@ -157,6 +158,34 @@
                  <p>Avanade</p>
              </div>
          </div>
+         <section>
+            <div>
+                <h1> 
+                    <font face="Harlow Solid Italic" color= "black">Preencha os dados para se cadastrar e receber mais informações!</font></h1>
+                Nome: <input  type= "text" name= "nome" id="txtname" placeholder="primeiro nome"/> <br></br>
+                Sobrenome: <input type="text" name="sobrenome" id="txtsobre"/> <br></br> 
+                Nascimento: <input type="date" name="nascimento" placeholder="Data do nascimento" id ="datenasc" /> <br></br> 
+                Telefone: <input type="number" name="telefone" id="numphone"  placeholder="Telefone com ddd"/> <br></br>
+                CPF: <input type="number" name="CPF" id="numcpf"/> <br></br>
+                E-mail: <input type="email" name="email" id="email"/> <br></br> 
+                Senha: <input type="password" name="senha" id = "senha"/> <br></br> 
+                Endereço: <input type="text" name="endereço" id="txtend"/> <br></br>
+    
+    
+                <label color="white"> Sexo </label><br><br>
+                <input type= "radio" name= "sexo"  value= "M" checked="checked"/>Masculino
+                <input type= "radio" name= "sexo" value= "F" /> Feminino
+                <input type= "radio" name= "sexo"  value= "NB"/>Não-binário
+                <input type= "radio" name= "sexo"  value= "ot"/>Outro
+    
+                
+    
+                
+                 
+            </div>
+            <div>
+                <br><input type="submit" name= "enviar" value="Salvar" onclick="validacao()"/>
+            </div>
   
      </footer>
 
