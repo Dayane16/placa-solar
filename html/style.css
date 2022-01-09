@@ -114,6 +114,14 @@ body{
     color: black;
 }
 
+iframe{
+    text-align: center;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 3%;
+}    
 /*menu final */
 
 /*pagina beneficios*/
