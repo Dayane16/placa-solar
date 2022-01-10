@@ -113,6 +113,16 @@ body{
     background-color: #f87f0e;
     color: black;
 }
+.conteudo3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.conteudo3-titulo{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
 
 iframe{
     text-align: center;
